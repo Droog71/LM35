@@ -1,0 +1,22 @@
+{
+  "name": "CD4026B",
+  "author": "Maverick",
+  "docs": "https://www.ti.com/product/LM35",
+  "pins": [
+    "VCC",
+    "OUT",
+    "GND",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "temperature",
+      "label": "Temperature",
+      "type": "range",
+      "min": 2,
+      "max": 150,
+      "step": 1
+    }
+  ]
+}

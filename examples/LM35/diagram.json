@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Maverick",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-mini", "id": "bb1", "top": 56.2, "left": 333.6, "attrs": {} },
+    { "type": "wokwi-custom-board", "id": "board", "top": 18.07, "left": 407.13, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} }
+  ],
+  "connections": [
+    [ "board:VCC", "bb1:8t.a", "", [ "$bb" ] ],
+    [ "board:OUT", "bb1:9t.a", "", [ "$bb" ] ],
+    [ "board:GND", "bb1:10t.a", "", [ "$bb" ] ],
+    [ "uno:A0", "bb1:9t.e", "blue", [ "v20.27", "h120.81", "v-92.26", "h93.59" ] ],
+    [ "uno:GND.3", "bb1:10t.e", "black", [ "v25.28", "h154.28", "v-92.64", "h98.72" ] ],
+    [ "uno:5V", "bb1:8t.e", "red", [ "v15.23", "h163.87", "v-92.02", "h88.93" ] ]
+  ],
+  "dependencies": {}
+}
