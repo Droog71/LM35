@@ -6,7 +6,7 @@
   "width": 8.56400,
   "height": 13.38800,
   
-  "chips": [{ "id": "chip", "type": "github:Droog71/LM35@0.0.1" }],
+  "chips": [{ "id": "chip", "type": "github:Droog71/LM35@0.0.2" }],
 
   "pins": {
     "VCC": { "x": 1.5, "y": 13, "target": "chip:VCC" },
